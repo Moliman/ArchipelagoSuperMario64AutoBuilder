@@ -17,5 +17,4 @@ git apply enhancements/nonstop_mode_always_enabled.patch
 
 cp ${sm64romunixpath} baserom.us.z64
 
-make clean
 make EXTERNAL_DATA=0 VERSION=us -j2
